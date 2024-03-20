@@ -16,7 +16,7 @@ while running:
 
     for x in range(128):
         for y in range(128):
-            pixels[x, y] = items[0][x // 8][y // 8]
+            pixels[x, y] = items[1][y // 8][x // 8]
 
     pixels.close()
 
